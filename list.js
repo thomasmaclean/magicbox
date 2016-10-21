@@ -1,5 +1,9 @@
 module.exports = [
 	{
+		pattern: /(https?:\/\/)(stage\-api\.nbcuni\.com\/tve\/sprout\/apps\/cnbc-roku\/pages\/programs\/)(.+)/,
+		responder: '$1vDgjyNo82JE0degDarH6rdkuau4_8bNm'
+	},
+	{
 		pattern: /^(https?:\/\/)(.*nbcuni.com\/_api\/search)(.+)/,
 		responder: '$1qa-web-chillertv.apps.nbcuni.com/_api/search$3'
 	},
